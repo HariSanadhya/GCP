@@ -1,7 +1,7 @@
 # GCP
 
-Link to GCP compute engine documentation - https://cloud.google.com/compute/docs/
-Link to **gcloud command line tool** overview - https://cloud.google.com/sdk/gcloud/
+Link to GCP compute engine documentation - https://cloud.google.com/compute/docs/<br>
+Link to **gcloud command line tool** overview - https://cloud.google.com/sdk/gcloud/<br>
 Link to **How to guide** - https://cloud.google.com/compute/docs/how-to 
 
 
@@ -48,6 +48,6 @@ Move file to bucket: **gsutil cp test.dat gs://BUCKET_NAME**
 
 **GCP Marketplace** - way to quickly launch common software packages and stacks on Google Compute Engine. It supports many common web frameworks, databases, CMSs, and CRMs. Its one of the fastest ways to get up and running on the GCP.
 
-Persistent disks are durable network storage devices that GCP instances can access like physical disks in a desktop or a server. The data on each persistent disk is distributed across several physical disks. Compute Engine manages the physical disks and the data distribution to ensure redundancy and optimize performance for you. Standard persistent disks are backed by standard hard disk drives (HDD). SSD persistent disks are backed by solid-state drives (SSD)
+Persistent disks are durable network storage devices that GCP instances can access like physical disks in a desktop or a server. The data on each persistent disk is distributed across several physical disks. Compute Engine manages the physical disks and the data distribution to ensure redundancy and optimize performance for you. Standard persistent disks are backed by standard hard disk drives (HDD). SSD persistent disks are backed by solid-state drives (SSD)<br>
 **Standard persistent disks are efficient and economical for handling sequential read/write operations, but are not optimized to handle high rates of random input/output operations per second (IOPS). If high rates of random IOPS is required, use SSD persistent disks. SSD persistent disks are designed for single-digit millisecond latencies. Observed latency is application-specific.**
 
