@@ -6,3 +6,4 @@ Interactive Data Science with Jupyter notebooks: https://goo.gl/TiVK2E <br>
 Google Cloud Datalab: https://goo.gl/9R0aHF <br>
 Datalab documentation: https://goo.gl/MzQxBr <br>
 Datalab source code on GitHub: https://goo.gl/G8CcMV 
+Link to google provided dataflow templates: https://cloud.google.com/dataflow/docs/guides/templates/provided-templates<br>
