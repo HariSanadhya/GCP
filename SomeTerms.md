@@ -8,3 +8,11 @@ Commands to initialize local variables:<br>
 export BUCKET=${PROJECT_ID}-ml<br>
 MYSQLIP=$(gcloud sql instances describe DB_NAME --format="value(ipAddresses.ipAddress)")**  # Command to get IP address of Cloud SQL instance<br> 
 
+**Data Studio** is a free, modern business intelligence product that lets user create dynamic, visually compelling reports and dashboards. With Data Studio, one can:
+
+    Easily connect to a variety of data sources.
+    Visualize your data through attractive, dynamic, and interactive reports and dashboards.
+    Share and collaborate with others, just as you can in Google Drive.
+Data Studio automatically saves every change that the user makes, so there's no need to click Save when editing a report.<br>
+Link - https://datastudio.google.com/
+
