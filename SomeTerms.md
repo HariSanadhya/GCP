@@ -34,3 +34,9 @@ Command to generate BAI file from BAM file:  in the command, ${BAM} is environme
 
 --------------------------------------------------------
 
+**Python virtual environment** is a directory tree containing its own Python distribution. <br>
+install it by command **sudo pip install --upgrade virtualenv**<br>
+create python2.7 virtual env **virtualenv -p python2.7 env**<br>
+Link - https://virtualenv.pypa.io/en/stable/<br>
+
+------------------------------------------
