@@ -40,3 +40,16 @@ create python2.7 virtual env **virtualenv -p python2.7 env**<br>
 Link - https://virtualenv.pypa.io/en/stable/<br>
 
 ------------------------------------------
+
+**Cloud Datalab**
+An easy to use interactive tool for data exploration, analysis, visualization and machine learning 
+1. Powerful Data Exploration : Cloud Datalab is a powerful interactive tool created to explore, analyze, transform and visualize data and build machine learning models on Google Cloud Platform. It runs on Google Compute Engine and connects to multiple cloud services easily so you can focus on your data science tasks.
+2. Integrated & Open Source: Cloud Datalab is built on Jupyter (formerly IPython), which boasts a thriving ecosystem of modules and a robust knowledge base. Cloud Datalab enables analysis of your data on Google BigQuery, Cloud Machine Learning Engine, Google Compute Engine, and Google Cloud Storage using Python, SQL, and JavaScript (for BigQuery user-defined functions).
+3. Scalable : Whether you're analyzing megabytes or terabytes, Cloud Datalab has you covered. Query terabytes of data in BigQuery, run local analysis on sampled data and run training jobs on terabytes of data in Cloud Machine Learning Engine seamlessly.
+4. Data Management & Visualization : Use Cloud Datalab to gain insight from your data. Interactively explore, transform, analyze, and visualize your data using BigQuery, Cloud Storage and Python.
+5. Machine Learning with Lifecycle Support : Go from data to deployed machine-learning (ML) models ready for prediction. Explore data, build, evaluate and optimize Machine Learning models using TensorFlow or Cloud Machine Learning Engine.
+
+Link for Datalab installation instructions and other information - https://cloud.google.com/datalab/docs/quickstart
+
+-----------------------------------
+
