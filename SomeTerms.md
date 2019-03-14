@@ -52,4 +52,12 @@ An easy to use interactive tool for data exploration, analysis, visualization an
 Link for Datalab installation instructions and other information - https://cloud.google.com/datalab/docs/quickstart
 
 -----------------------------------
+Google BigQuery is a RESTful web service that enables interactive analysis of massively large datasets working in conjunction with Google Storage.
+
+**export PROJECT_ID=$(gcloud info --format='value(config.project)')**<br> #Env variable setup
+**export BUCKET=$PROJECT_ID-ml**<br> # Env variable setup
+**Using the GUI or gcloud shell, create the bucket with name as the value of BUCKET environment variable** 
+**bq mk --external_table_definition=./tzcorr.json@CSV=gs://$BUCKET/flights/tzcorr/all_flights-00001-of-00025 flights.fedtzcorr**<br> #Loads a CSV file from google cloud storage to BigQuery table. The table schema here is present in a json file.
+
+-------------------------------
 
