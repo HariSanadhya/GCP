@@ -61,3 +61,10 @@ Google BigQuery is a RESTful web service that enables interactive analysis of ma
 
 -------------------------------
 
+**Cloud Dataflow** is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes via Java and Python APIs with the Apache Beam SDK. Cloud Dataflow provides a serverless architecture that can be used to shard and process very large batch data sets, or high volume live streams of data, in parallel.
+To enable the Dataflow API, go to 'APIs and Services' > 'Library' > 'Dataflow'
+
+
+----------------------------
+
+**Google Cloud Shell** is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Google Cloud Shell provides command-line access to your GCP resources.
