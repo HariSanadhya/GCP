@@ -68,3 +68,26 @@ To enable the Dataflow API, go to 'APIs and Services' > 'Library' > 'Dataflow'
 ----------------------------
 
 **Google Cloud Shell** is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Google Cloud Shell provides command-line access to your GCP resources.
+
+--------------------
+
+**Cloud TPU** Training and running deep learning models can be computationally demanding. Tensor Processing Unit (TPU) enables training and execution of machine learning models faster. TPU powers several Google Cloud products, including Translate, Photos, Search, Assistant, and Gmail, and is helping businesses access accelerator technology to speed up their machine learning workloads on Google Cloud.<br>
+Cloud TPU Provisioning Utility (ctpu) is a tool for setting up and managing your Cloud TPU from Cloud Shell. <br>
+Link to CTPU - https://github.com/tensorflow/tpu/tree/master/tools/ctpu <br>
+
+----------------------
+
+**Cloud Composer** is a fully managed workflow orchestration service built on Apache Airflow. <br>
+Cloud Composer workflows are comprised of DAGs (Directed Acyclic Graphs). You will create your own DAG, including design considerations, as well as implementation details, to ensure that your prototype meets the requirements.<br>
+Link - https://cloud.google.com/composer/
+
+--------------------------
+
+**There are three possible situations that people come to the cloud**
+- migrations from on-premise to cloud and change where they compute
+- scale up their data processing, or make it more reliable
+- transform businesses using innovative technology
+
+------------------------------ 
+
+**DataProc** is a Hadoop cluster on GCP. Its Google-managed Hadoop,Pig, Hive, Spark programs. Usage is like use a Dataproc cluster to run a Python Spark batch job that is to be run only at certain scheduled time. 
